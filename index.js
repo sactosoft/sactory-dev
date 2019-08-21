@@ -36,10 +36,14 @@ function impl(name, exclude, options) {
 
 		var b = main.pipe(clone())
 			.pipe(babel({
-				presets: ["babel-preset-env", ["babel-preset-minify", {
-					builtIns: false,
-					mangle: {exclude}
-				}]],
+				presets: [
+					["babel-preset-env", {
+						modules: false
+					}], ["babel-preset-minify", {
+						builtIns: false,
+						mangle: {exclude}
+					}]
+				],
 				minified: true,
 				comments: false
 			}))
