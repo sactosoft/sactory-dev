@@ -1,0 +1,32 @@
+{
+	"name": "@sactory/dev",
+	"version": "0.1.0",
+	"description": "Development tools for Sactory and related libraries",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sactory/sactory-dev.git"
+	},
+	"author": "Mark White",
+	"license": "MIT",
+	"keywords": [
+		"sactory"
+	],
+	"bugs": {
+		"url": "https://github.com/sactory/sactory-dev/issues"
+	},
+	"homepage": "https://github.com/sactory/sactory-dev#readme",
+	"dependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-minify": "^0.5.1",
+		"event-stream": "^4.0.1",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^6.1.3",
+		"gulp-clone": "^2.0.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-nop": "0.0.3",
+		"gulp-rename": "^1.4.0",
+		"gulp-sactory": "^0.1.0",
+		"gulp-sourcemaps": "^2.6.5"
+	}
+}
